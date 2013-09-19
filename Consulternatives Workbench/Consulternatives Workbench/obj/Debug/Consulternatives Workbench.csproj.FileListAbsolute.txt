@@ -1,0 +1,12 @@
+C:\Users\Justin\Documents\Visual Studio 2008\Projects\Consulternatives Workbench\Consulternatives Workbench\bin\Debug\Consulternatives Workbench.exe.manifest
+C:\Users\Justin\Documents\Visual Studio 2008\Projects\Consulternatives Workbench\Consulternatives Workbench\bin\Debug\Consulternatives Workbench.application
+C:\Users\Justin\Documents\Visual Studio 2008\Projects\Consulternatives Workbench\Consulternatives Workbench\bin\Debug\Consulternatives Workbench.exe
+C:\Users\Justin\Documents\Visual Studio 2008\Projects\Consulternatives Workbench\Consulternatives Workbench\bin\Debug\Consulternatives Workbench.pdb
+C:\Users\Justin\Documents\Visual Studio 2008\Projects\Consulternatives Workbench\Consulternatives Workbench\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Justin\Documents\Visual Studio 2008\Projects\Consulternatives Workbench\Consulternatives Workbench\obj\Debug\Consulternatives_Workbench.Form1.resources
+C:\Users\Justin\Documents\Visual Studio 2008\Projects\Consulternatives Workbench\Consulternatives Workbench\obj\Debug\Consulternatives_Workbench.Properties.Resources.resources
+C:\Users\Justin\Documents\Visual Studio 2008\Projects\Consulternatives Workbench\Consulternatives Workbench\obj\Debug\Consulternatives Workbench.csproj.GenerateResource.Cache
+C:\Users\Justin\Documents\Visual Studio 2008\Projects\Consulternatives Workbench\Consulternatives Workbench\obj\Debug\Consulternatives Workbench.exe.manifest
+C:\Users\Justin\Documents\Visual Studio 2008\Projects\Consulternatives Workbench\Consulternatives Workbench\obj\Debug\Consulternatives Workbench.application
+C:\Users\Justin\Documents\Visual Studio 2008\Projects\Consulternatives Workbench\Consulternatives Workbench\obj\Debug\Consulternatives Workbench.exe
+C:\Users\Justin\Documents\Visual Studio 2008\Projects\Consulternatives Workbench\Consulternatives Workbench\obj\Debug\Consulternatives Workbench.pdb

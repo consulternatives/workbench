@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="Consulternatives Workbench.exe" version="1.0.0.31" publicKeyToken="925717cf779fee39" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Consulternatives Workbench" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Consulternatives Workbench.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Consulternatives Workbench.exe" size="30720">
+      <assemblyIdentity name="Consulternatives Workbench" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>wb+qhQGugI5sPfri6U7SrnLk0Oo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=CONSULTDT\Justin" issuerKeyHash="0483aba27c2d21c76aa6b42e086e68a1942f3956" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>SPrOwgeEEPot3pno+QhT3u0YxMI=</DigestValue></Reference></SignedInfo><SignatureValue>pZ4vFuxd3noYn0KqVFO9m0uC3TtAwrLiF9xIUCR+ras2LL4PewNUmQf/89B1k9NAKJtxpUayxOKQT08LRnFEEUukbwzxBJACp+xVeb+m7Cds3OJdXm79c/+ZiA+6AkxSWYaw2Ao0DMYKbkTDsNrtlx2qpBtsQkI0KTKi2DB9ReQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rixDxWoLoQCezeFrbqHMCK13S3KLOIr5sFlIalV4Dt5imFcG57t+LgnBKTWkX/uCRp8WZiwYECDtw51kq/9RqEvCnRbaimIjj1zXs3Vm9lo+vjZFRZt1+zI6S8uD3qyWspEDFw96pjY3ac1gll++eKj4KSTJsrKM6c0eiWS5GAc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c2c418edde5308f9e899de2dfa108407c2cefa48" Description="" Url=""><as:assemblyIdentity name="Consulternatives Workbench.exe" version="1.0.0.31" publicKeyToken="925717cf779fee39" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CONSULTDT\Justin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>xkoslqb/+919A7ZJclZMQ27tW5U=</DigestValue></Reference></SignedInfo><SignatureValue>Sh1MOW0TCFT4YO6k4oUZljjKz3g4jkV0KVtTLrW8QUiD51V6Hs27k9dRcoPJCU2mw096bMKhLzlc63cqQpkqjLcLyvKAu0Ncb9NL6oI6qm+CObEOpu1V8zo5VlC12hPyuHevaCuoZoTdE0D5AMO6er6TElGE26+3m0kB1Gp4gOg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rixDxWoLoQCezeFrbqHMCK13S3KLOIr5sFlIalV4Dt5imFcG57t+LgnBKTWkX/uCRp8WZiwYECDtw51kq/9RqEvCnRbaimIjj1zXs3Vm9lo+vjZFRZt1+zI6S8uD3qyWspEDFw96pjY3ac1gll++eKj4KSTJsrKM6c0eiWS5GAc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQE0IKFI4aTL9J3rtnbElmOzANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAAQwBPAE4AUwBVAEwAVABEAFQAXABKAHUAcwB0AGkAbjAeFw0xMzAyMDYxNDUyNDZaFw0xNDAyMDYyMDUyNDZaMCsxKTAnBgNVBAMeIABDAE8ATgBTAFUATABUAEQAVABcAEoAdQBzAHQAaQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCuLEPFaguhAJ7N4WtuocwIrXdLcos4ivmwWUhqVXgO3mKYVwbnu34uCcEpNaRf+4JGnxZmLBgQIO3DnWSr/1GoS8KdFtqKYiOPXNezdWb2Wj6+NkVFm3X7MjpLy4PerJaykQMXD3qmNjdpzWCWX754qPgpJMmysozpzR6JZLkYBwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAJ8de56y+4JVarSQPKVnDFLnPg3iQd93qywCabmEF8iv9MmTwvRJsnr7ZTLFILtFxK0OwdmPDo95Qg+y70gUiCO0VSZ5zzD8lWfKRw8GUgrW7Flg3SCijw4dnBCPpkhmQxcmSwGCRl1KrYz23t+N2FWqc4LGNkHnfPBbR283EvVM</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
